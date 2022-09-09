@@ -7,7 +7,7 @@
  *            combinations of two digits.
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
@@ -24,8 +24,8 @@ int main(void)
 			{
 				if (digit1 != digit2 &&
 				    digit1 < digit2 &&
-    				    digit2 != digit3 &&
-    				    digit2 < digit3)
+				    digit2 != digit3 &&
+				    digit2 < digit3)
 				{
 					putchar(digit1 + 48);
 					putchar(digit2 + 48);
